@@ -1,0 +1,66 @@
+* {
+	font-family: 'Dancing Script', cursive;
+}
+
+body {
+	margin:0;
+	background: url('img/bg.jpg');
+}
+
+main {
+	background-color: lightgreen;
+	background: url('img/bg2.jpg');
+	background-size: cover;
+	display: grid;
+	margin: 3% auto 3% auto;
+	padding:100px;
+	width:90%;
+	grid-template-columns: auto auto auto;
+	grid-gap: 30px;
+	border-radius:100px;
+}
+
+#item1, #item2, #item3 {
+	height:100px;
+	background-color: lightgreen;
+}
+
+.grid-item {
+	background-color: white;
+	text-align: center;
+	width:100%;
+	overflow: hidden;
+}
+
+h1 {
+	text-align: right;
+	margin-right:20px;
+	font-si ze:35pt;
+	padding: 10px 200px 10px 10px;
+}
+
+p {
+	text-align: left;
+	margin-left:20px;
+	font-size:25pt;
+}
+
+#item4{
+	height:1020px;
+	grid-row-start: 2;
+	grid-row-end: 4;
+}
+
+#item11{
+	height:1020px;
+	grid-row-start: 4;
+	grid-column-start: 3;
+	grid-row-end: 6;
+}
+
+img {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+	/* overflow: hidden; */
+}
